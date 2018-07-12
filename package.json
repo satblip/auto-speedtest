@@ -1,0 +1,16 @@
+{
+  "name": "auto-speedtest",
+  "version": "1.0.0",
+  "description": "A docker image that performs an automated speedtest with interval and publish results on logz.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": "Louis Borsu (sat@satprod.net)",
+  "license": "ISC",
+  "dependencies": {
+    "logzio-nodejs": "^0.4.15",
+    "moment": "^2.22.2",
+    "speedtest-net": "^1.4.3"
+  }
+}

@@ -1,0 +1,9 @@
+node:
+  build: .
+  command: node index.js
+  environment:
+    LOGZIO_TOKEN: ${LOGZIO_TOKEN}
+    THROTTLING: 30000
+  volumes:
+    - ./index.js:/var/www/index.js
+    - ./package.json:/var/www/package.json
