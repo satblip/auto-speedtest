@@ -1,5 +1,7 @@
 # Auto-Speedtest
 
+![Internet download speed](https://user-images.githubusercontent.com/1811109/42627008-0fa83e00-85cc-11e8-9949-7eadc63fe677.png)
+
 Automated Speedtest.net script that publish its results on logz.io
 
 ## Requirements
