@@ -10,7 +10,7 @@ Automated Speedtest.net script that publish its results on logz.io
 ## How to use
 
 ```bash
-docker run satblip/auto-speedtest -e LOGZIO_TOKEN=<<YOUR-TOKEN>>
+docker run -e LOGZIO_TOKEN=<<YOUR-TOKEN>> satblip/auto-speedtest
 ```
 
 ## Options
